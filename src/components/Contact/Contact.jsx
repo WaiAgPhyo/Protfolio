@@ -10,8 +10,8 @@ const contactInfo = [
 ]
 
 const socials = [
-  { icon: <FiGithub />, href: 'https://github.com', label: 'GitHub' },
-  { icon: <FiLinkedin />, href: 'https://linkedin.com', label: 'LinkedIn' },
+  { icon: <FiGithub />, href: 'https://github.com/WaiAgPhyo', label: 'GitHub' },
+  { icon: <FiLinkedin />, href: 'https://linkedin.com/in/wai-aung-phyo-a572a726a', label: 'LinkedIn' },
   { icon: <FiTwitter />, href: 'https://twitter.com', label: 'Twitter' },
 ]
 

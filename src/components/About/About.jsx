@@ -7,8 +7,6 @@ import './About.css'
 const stats = [
   { value: 3, suffix: '+', label: 'Years Experience' },
   { value: 50, suffix: '+', label: 'Projects Completed' },
-  { value: 20, suffix: '+', label: 'Happy Clients' },
-  { value: 100, suffix: '%', label: 'Dedication' },
 ]
 
 const highlights = [
@@ -52,10 +50,11 @@ export default function About() {
             transition={{ duration: 0.7, delay: 0.2 }}
           >
             <div className="about-image-frame">
-              <div className="about-initials-box">
-                <span>Kenny</span>
-                <p>Full Stack Dev</p>
-              </div>
+              <img
+                src="/images/profile.jpg"
+                alt="Wai Aung Phyo"
+                className="about-photo"
+              />
               <div className="about-image-deco deco-1" />
               <div className="about-image-deco deco-2" />
             </div>

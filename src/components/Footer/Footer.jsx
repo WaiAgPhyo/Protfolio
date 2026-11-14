@@ -6,14 +6,15 @@ import './Footer.css'
 const footerLinks = [
   { label: 'Home', to: 'hero' },
   { label: 'About', to: 'about' },
+  { label: 'Education', to: 'education' },
   { label: 'Skills', to: 'skills' },
   { label: 'Projects', to: 'projects' },
   { label: 'Contact', to: 'contact' },
 ]
 
 const socials = [
-  { icon: <FiGithub />, href: 'https://github.com', label: 'GitHub' },
-  { icon: <FiLinkedin />, href: 'https://linkedin.com', label: 'LinkedIn' },
+  { icon: <FiGithub />, href: 'https://github.com/WaiAgPhyo', label: 'GitHub' },
+  { icon: <FiLinkedin />, href: 'https://linkedin.com/in/wai-aung-phyo-a572a726a', label: 'LinkedIn' },
   { icon: <FiTwitter />, href: 'https://twitter.com', label: 'Twitter' },
   { icon: <FiMail />, href: 'mailto:waiagphyo90@email.com', label: 'Email' },
 ]

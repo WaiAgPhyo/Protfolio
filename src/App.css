@@ -14,6 +14,16 @@
   background-clip: text;
 }
 
+.github-profile-link {
+  color: var(--accent-primary);
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.github-profile-link:hover {
+  color: #8b82ff;
+}
+
 .section-subtitle {
   text-align: center;
   color: var(--text-secondary);

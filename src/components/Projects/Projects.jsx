@@ -7,79 +7,91 @@ import './Projects.css'
 const projects = [
   {
     id: 1,
-    title: 'E-Commerce Platform',
-    category: 'Full Stack',
-    desc: 'A feature-rich e-commerce platform with product management, cart, and payment integration using Stripe.',
-    longDesc: 'Built a full-stack e-commerce solution with React frontend, Java/Spring Boot backend, MongoDB database. Features include user authentication, product search/filter, shopping cart, Stripe payment integration, order tracking, and admin dashboard.',
-    tags: ['React', 'Java', 'Spring Boot', 'MongoDB', 'Stripe', 'Redux'],
-    github: 'https://github.com',
-    live: 'https://example.com',
+    title: 'Protfolio',
+    category: 'Frontend',
+    desc: 'Personal portfolio website with animated sections, particle background, and contact form.',
+    longDesc: 'A React + Vite personal portfolio featuring Framer Motion animations, custom cursor, particle canvas background, skills tabs, project gallery with modal details, and Formspree-powered contact form.',
+    tags: ['React', 'Vite', 'JavaScript', 'CSS', 'Framer Motion'],
+    github: 'https://github.com/WaiAgPhyo/Protfolio',
+    live: null,
     color: '#6c63ff',
-    emoji: '🛒',
+    emoji: '💼',
   },
   {
     id: 2,
-    title: 'Real-Time Chat App',
-    category: 'Full Stack',
-    desc: 'WebSocket-powered chat app with rooms, direct messages, and emoji reactions.',
-    longDesc: 'Real-time messaging application built with Socket.io. Features include group rooms, private chats, file sharing, emoji reactions, typing indicators, read receipts, and user online status.',
-    tags: ['React', 'Socket.io', 'Java', 'MongoDB', 'JWT'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    color: '#ff6584',
-    emoji: '💬',
+    title: 'JavaTesting',
+    category: 'Backend',
+    desc: 'Gradle-based Java project with Docker support for testing and build automation practice.',
+    longDesc: 'A Java testing workspace built with Gradle. Includes Dockerfile setup for containerized builds and a structured src layout for practicing unit testing and backend fundamentals.',
+    tags: ['Java', 'Gradle', 'Docker'],
+    github: 'https://github.com/WaiAgPhyo/JavaTesting',
+    live: null,
+    color: '#68A063',
+    emoji: '☕',
   },
   {
     id: 3,
-    title: 'Task Manager Pro',
-    category: 'Frontend',
-    desc: 'Drag-and-drop Kanban board with team collaboration, deadlines, and analytics.',
-    longDesc: 'A productivity app with intuitive Kanban boards, drag-and-drop tasks, team member assignment, deadline tracking, priority labels, and a beautiful analytics dashboard.',
-    tags: ['React', 'TypeScript', 'DnD Kit', 'Chart.js', 'Firebase'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    color: '#43e97b',
-    emoji: '📋',
+    title: 'api-demo',
+    category: 'Backend',
+    desc: 'Maven Spring Boot style Java API demo exploring REST endpoints and backend structure.',
+    longDesc: 'A Java API demonstration project using Maven. Focuses on backend API structure, request handling, and building a foundation for REST services.',
+    tags: ['Java', 'Maven', 'REST APIs'],
+    github: 'https://github.com/WaiAgPhyo/api-demo',
+    live: null,
+    color: '#ff6584',
+    emoji: '🔌',
   },
   {
     id: 4,
-    title: 'Weather Dashboard',
+    title: 'Talent-Program',
     category: 'Frontend',
-    desc: 'Beautiful weather app with 7-day forecasts, radar maps, and location search.',
-    longDesc: 'Weather application consuming OpenWeatherMap API. Features include current conditions, hourly/weekly forecasts, interactive radar maps, location search, and favorite locations management.',
-    tags: ['React', 'OpenWeatherMap API', 'Chart.js', 'Leaflet', 'CSS'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    color: '#667eea',
-    emoji: '🌤️',
+    desc: 'HTML & CSS assignments and mini projects from a talent / training program.',
+    longDesc: 'Collection of frontend training work including day-by-day HTML/CSS assignments, styling practice, and a MiniProject folder. Built while learning core web fundamentals.',
+    tags: ['HTML', 'CSS'],
+    github: 'https://github.com/WaiAgPhyo/Talent-Program',
+    live: null,
+    color: '#E34F26',
+    emoji: '🎓',
   },
   {
     id: 5,
-    title: 'Blog CMS Platform',
-    category: 'Full Stack',
-    desc: 'Headless CMS for blogging with rich text editor, SEO tools, and analytics.',
-    longDesc: 'A complete content management system with a rich text editor (TipTap), image uploads to Cloudinary, tag/category management, SEO meta editor, view counts, comment system, and an admin panel.',
-    tags: ['Next.js', 'Prisma', 'PostgreSQL', 'Cloudinary', 'TipTap'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    color: '#f093fb',
-    emoji: '✍️',
+    title: 'CodeWallExam',
+    category: 'Backend',
+    desc: 'Java coding exam / practice solutions organized in a clean source structure.',
+    longDesc: 'Java practice and exam solutions written during coding assessments. Focuses on problem-solving, core Java syntax, and structured source organization.',
+    tags: ['Java'],
+    github: 'https://github.com/WaiAgPhyo/CodeWallExam',
+    live: null,
+    color: '#667eea',
+    emoji: '📝',
   },
   {
     id: 6,
-    title: 'Crypto Tracker',
+    title: 'workspace',
     category: 'Frontend',
-    desc: 'Live cryptocurrency price tracker with portfolio management and alerts.',
-    longDesc: 'Cryptocurrency dashboard pulling live data from CoinGecko API. Features live price updates, portfolio tracking, price alerts, interactive charts, market cap rankings, and dark/light mode.',
-    tags: ['React', 'CoinGecko API', 'Recharts', 'Context API', 'PWA'],
-    github: 'https://github.com',
-    live: 'https://example.com',
-    color: '#4facfe',
-    emoji: '📈',
+    desc: 'React + Vite workspace for experimenting with modern frontend tooling and components.',
+    longDesc: 'A React + Vite development workspace used for frontend experiments, component practice, and exploring modern build tooling with HMR and ESLint.',
+    tags: ['React', 'Vite', 'JavaScript', 'CSS'],
+    github: 'https://github.com/WaiAgPhyo/workspace',
+    live: null,
+    color: '#61DAFB',
+    emoji: '⚛️',
+  },
+  {
+    id: 7,
+    title: 'Inbound Travel Accident Insurance',
+    category: 'Full Stack',
+    desc: 'Inbound travel accident insurance project repository started on GitHub.',
+    longDesc: 'Repository for an inbound travel accident insurance concept. Currently early-stage on GitHub and reserved for insurance-related product work.',
+    tags: ['Insurance', 'Project'],
+    github: 'https://github.com/WaiAgPhyo/Inbound-Travel-Accident-Insurance',
+    live: null,
+    color: '#43e97b',
+    emoji: '🛡️',
   },
 ]
 
-const filters = ['All', 'Full Stack', 'Frontend']
+const filters = ['All', 'Frontend', 'Backend', 'Full Stack']
 
 export default function Projects() {
   const [filter, setFilter] = useState('All')
@@ -99,7 +111,15 @@ export default function Projects() {
           <p className="section-label">What I've Built</p>
           <h2 className="section-title">Featured Projects</h2>
           <p className="section-subtitle">
-            A selection of projects showcasing my skills in web development and design.
+            Real repositories from my GitHub —{' '}
+            <a
+              href="https://github.com/WaiAgPhyo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="github-profile-link"
+            >
+              @WaiAgPhyo
+            </a>
           </p>
         </motion.div>
 
@@ -167,15 +187,17 @@ export default function Projects() {
                     >
                       <FiGithub /> Code
                     </a>
-                    <a
-                      href={project.live}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="project-link primary"
-                      onClick={e => e.stopPropagation()}
-                    >
-                      <FiExternalLink /> Live
-                    </a>
+                    {project.live && (
+                      <a
+                        href={project.live}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-link primary"
+                        onClick={e => e.stopPropagation()}
+                      >
+                        <FiExternalLink /> Live
+                      </a>
+                    )}
                   </div>
                 </div>
               </motion.article>
@@ -184,7 +206,6 @@ export default function Projects() {
         </motion.div>
       </div>
 
-      {/* Modal */}
       <AnimatePresence>
         {selected && (
           <motion.div
@@ -224,9 +245,11 @@ export default function Projects() {
                   <a href={selected.github} target="_blank" rel="noopener noreferrer" className="btn-outline">
                     <FiGithub /> View Code
                   </a>
-                  <a href={selected.live} target="_blank" rel="noopener noreferrer" className="btn-primary">
-                    <FiExternalLink /> Live Demo
-                  </a>
+                  {selected.live && (
+                    <a href={selected.live} target="_blank" rel="noopener noreferrer" className="btn-primary">
+                      <FiExternalLink /> Live Demo
+                    </a>
+                  )}
                 </div>
               </div>
             </motion.div>

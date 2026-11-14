@@ -7,8 +7,8 @@ import ParticlesBg from '../ParticlesBg/ParticlesBg'
 import './Hero.css'
 
 const socials = [
-  { icon: <FiGithub />, href: 'https://github.com', label: 'GitHub' },
-  { icon: <FiLinkedin />, href: 'https://linkedin.com', label: 'LinkedIn' },
+  { icon: <FiGithub />, href: 'https://github.com/WaiAgPhyo', label: 'GitHub' },
+  { icon: <FiLinkedin />, href: 'https://linkedin.com/in/wai-aung-phyo-a572a726a', label: 'LinkedIn' },
   { icon: <FiTwitter />, href: 'https://twitter.com', label: 'Twitter' },
   { icon: <FiMail />, href: 'mailto:waiagphyo90@email.com', label: 'Email' },
 ]
@@ -120,7 +120,11 @@ export default function Hero() {
             <div className="avatar-ring ring-2" />
             <div className="avatar-ring ring-3" />
             <div className="hero-avatar">
-              <div className="avatar-initials">Kenny</div>
+              <img
+                src="/images/profile.jpg"
+                alt="Wai Aung Phyo"
+                className="avatar-photo"
+              />
             </div>
             <div className="avatar-badge badge-1">
               <span>⚛️</span> React
