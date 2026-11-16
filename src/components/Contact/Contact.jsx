@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FiSend, FiMail, FiMapPin, FiGithub, FiLinkedin, FiTwitter, FiDownload } from 'react-icons/fi'
+import { FiSend, FiMail, FiMapPin, FiGithub, FiLinkedin, FiDownload } from 'react-icons/fi'
 import './Contact.css'
 
 const contactInfo = [
@@ -12,7 +12,6 @@ const contactInfo = [
 const socials = [
   { icon: <FiGithub />, href: 'https://github.com/WaiAgPhyo', label: 'GitHub' },
   { icon: <FiLinkedin />, href: 'https://linkedin.com/in/wai-aung-phyo-a572a726a', label: 'LinkedIn' },
-  { icon: <FiTwitter />, href: 'https://twitter.com', label: 'Twitter' },
 ]
 
 export default function Contact() {

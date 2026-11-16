@@ -2,14 +2,13 @@ import { useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
 import { Link } from 'react-scroll'
-import { FiGithub, FiLinkedin, FiTwitter, FiMail, FiArrowDown, FiDownload } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiMail, FiArrowDown, FiDownload } from 'react-icons/fi'
 import ParticlesBg from '../ParticlesBg/ParticlesBg'
 import './Hero.css'
 
 const socials = [
   { icon: <FiGithub />, href: 'https://github.com/WaiAgPhyo', label: 'GitHub' },
   { icon: <FiLinkedin />, href: 'https://linkedin.com/in/wai-aung-phyo-a572a726a', label: 'LinkedIn' },
-  { icon: <FiTwitter />, href: 'https://twitter.com', label: 'Twitter' },
   { icon: <FiMail />, href: 'mailto:waiagphyo90@email.com', label: 'Email' },
 ]
 

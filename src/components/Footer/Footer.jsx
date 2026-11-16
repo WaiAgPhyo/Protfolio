@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-scroll'
-import { FiGithub, FiLinkedin, FiTwitter, FiMail, FiHeart, FiArrowUp } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiMail, FiHeart, FiArrowUp } from 'react-icons/fi'
 import './Footer.css'
 
 const footerLinks = [
@@ -15,7 +15,6 @@ const footerLinks = [
 const socials = [
   { icon: <FiGithub />, href: 'https://github.com/WaiAgPhyo', label: 'GitHub' },
   { icon: <FiLinkedin />, href: 'https://linkedin.com/in/wai-aung-phyo-a572a726a', label: 'LinkedIn' },
-  { icon: <FiTwitter />, href: 'https://twitter.com', label: 'Twitter' },
   { icon: <FiMail />, href: 'mailto:waiagphyo90@email.com', label: 'Email' },
 ]
 
