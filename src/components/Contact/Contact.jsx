@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { FiSend, FiMail, FiMapPin, FiGithub, FiLinkedin, FiTwitter } from 'react-icons/fi'
+import { FiSend, FiMail, FiMapPin, FiGithub, FiLinkedin, FiTwitter, FiDownload } from 'react-icons/fi'
 import './Contact.css'
 
 const contactInfo = [
@@ -121,6 +121,15 @@ export default function Contact() {
               <span className="glow-dot" />
               <span>Available for freelance projects</span>
             </div>
+
+            <a
+              href="/resume.pdf"
+              download="Wai-Aung-Phyo-CV.pdf"
+              className="btn-outline contact-cv-btn"
+            >
+              <FiDownload />
+              Download CV
+            </a>
           </motion.div>
 
           <motion.div

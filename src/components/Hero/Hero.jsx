@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
 import { Link } from 'react-scroll'
-import { FiGithub, FiLinkedin, FiTwitter, FiMail, FiArrowDown } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiTwitter, FiMail, FiArrowDown, FiDownload } from 'react-icons/fi'
 import ParticlesBg from '../ParticlesBg/ParticlesBg'
 import './Hero.css'
 
@@ -82,9 +82,14 @@ export default function Hero() {
               View My Work
               <FiArrowDown />
             </Link>
-            <Link to="contact" smooth duration={700} className="btn-outline">
-              Get In Touch
-            </Link>
+            <a
+              href="/resume.pdf"
+              download="Wai-Aung-Phyo-CV.pdf"
+              className="btn-outline"
+            >
+              <FiDownload />
+              Download CV
+            </a>
           </motion.div>
 
           <motion.div variants={itemVariants} className="hero-socials">

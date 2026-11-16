@@ -188,6 +188,12 @@
   cursor: not-allowed;
 }
 
+.contact-cv-btn {
+  margin-top: 1.25rem;
+  align-self: flex-start;
+  width: fit-content;
+}
+
 .submit-btn.sent {
   background: linear-gradient(135deg, #43e97b, #38f9d7);
 }

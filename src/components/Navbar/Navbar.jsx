@@ -68,6 +68,7 @@ export default function Navbar() {
 
         <motion.a
           href="/resume.pdf"
+          download="Wai-Aung-Phyo-CV.pdf"
           className="nav-resume-btn"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -75,7 +76,7 @@ export default function Navbar() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          Resume
+          Download CV
         </motion.a>
 
         <button
@@ -115,8 +116,12 @@ export default function Navbar() {
                 </motion.li>
               ))}
               <li>
-                <a href="/resume.pdf" className="mobile-resume">
-                  Resume
+                <a
+                  href="/resume.pdf"
+                  download="Wai-Aung-Phyo-CV.pdf"
+                  className="mobile-resume"
+                >
+                  Download CV
                 </a>
               </li>
             </ul>
